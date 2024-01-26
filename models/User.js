@@ -7,6 +7,7 @@ const userSchema = new mongoose.Schema({
   gender: String,
   password: String,
   eventDate: String,
+  pdfPath: String,
 });
 
 const User = mongoose.model('User', userSchema);
